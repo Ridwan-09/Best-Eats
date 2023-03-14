@@ -1,9 +1,13 @@
 import React from 'react';
-
+import {AiOutlineMenu} from 'react-icons/ai';
 const Navbar = () => {
     return (
         <div>
-            <div>Navbar</div>
+            <div>
+                <div>
+                    <AiOutlineMenu />
+                </div>
+            </div>
         </div>
     );
 };
