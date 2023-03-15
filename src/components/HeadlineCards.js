@@ -11,7 +11,7 @@ const HeadlineCards = () => {
                     <p className='px-2'>Through 8/26</p>
                     <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
                 </div>
-                <img src="https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg?auto=compress&cs=tinysrgb&w=600" alt="/" />
+                <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src="https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg?auto=compress&cs=tinysrgb&w=600" alt="/" />
             </div>
         </div>
     );
